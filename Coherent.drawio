@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1340" dy="897" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3354" dy="1963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,8 +234,8 @@
         <mxCell id="w0o_VN7VHRVcwuZl0_9_-118" value="&lt;div&gt;Save Search&amp;nbsp;&lt;/div&gt;&lt;div&gt;Results&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-56" y="1047" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w0o_VN7VHRVcwuZl0_9_-119" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Result/Notes Storage and Export&lt;/h1&gt;&lt;div&gt;The Results generated during search process are stored and made available for edits using &quot;Notes&quot; feature. &lt;br&gt;Users can add notes to a Results View and Annotations to a File.&lt;/div&gt;&lt;div&gt;These Notes and Annotations can be Exported Along with the Tables and Summaries. These Summaries can also be shared as a link to other users of the application.&lt;/div&gt;&lt;div&gt;The share levels are:&lt;br&gt;1. Organization wide sharing&lt;/div&gt;&lt;div&gt;2. &lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="822" y="1015.5" width="340" height="230" as="geometry" />
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-119" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Result/Notes Storage and Export&lt;/h1&gt;&lt;div&gt;The Results generated during search process are stored and made available for edits using &quot;Notes&quot; feature. &lt;br&gt;Users can add notes to a Results View and Annotations to a File.&lt;/div&gt;&lt;div&gt;These Notes and Annotations can be Exported Along with the Tables and Summaries. These Summaries can also be shared as a link to other users of the application.&lt;/div&gt;&lt;div&gt;The share levels are:&lt;br&gt;1. Organization wide sharing&lt;/div&gt;&lt;div&gt;2. Public Sharing&lt;/div&gt;&lt;div&gt;3. Shared to a specific user.&lt;br&gt;&lt;br&gt;Features for further analysis:&lt;br&gt;1. Graph Generation using OpenAI API: Raw data from multiple tables can be combined and processed to create graphs using libraries like &quot;matplotlib&quot;.&lt;/div&gt;&lt;div&gt;2. Collaborative Notes: Figma Like shared files where multiple developers can collaborate in real time to edit and make changes. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="822" y="1015.5" width="340" height="386.5" as="geometry" />
         </mxCell>
         <mxCell id="w0o_VN7VHRVcwuZl0_9_-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-121" target="w0o_VN7VHRVcwuZl0_9_-146">
           <mxGeometry relative="1" as="geometry" />
@@ -325,6 +325,103 @@
               <mxPoint x="128" y="1402" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-215" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1628" width="1350" height="491" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-219" target="w0o_VN7VHRVcwuZl0_9_-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-219" value="User Creation and Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-56" y="1703" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-220" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User Authentication and Administration&lt;/h1&gt;&lt;p class=&quot;&quot; data-end=&quot;3476&quot; data-start=&quot;3455&quot;&gt;&lt;b&gt;RBAC&amp;nbsp;enforcement:&lt;br&gt;&lt;/b&gt;Admin:&amp;nbsp;Platform&amp;nbsp;management&lt;br&gt;Client-Admin:&amp;nbsp;License&amp;nbsp;and&amp;nbsp;organization&amp;nbsp;management.&lt;br&gt;User:&amp;nbsp;Full&amp;nbsp;access.&lt;br&gt;Viewer:&amp;nbsp;Read-only&amp;nbsp;access.&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;3476&quot; data-start=&quot;3455&quot;&gt;&lt;b&gt;Subscription&amp;nbsp;plans:&lt;/b&gt;&lt;br&gt;Org-level&amp;nbsp;licenses:&amp;nbsp;Tied&amp;nbsp;to&amp;nbsp;specific&amp;nbsp;companies.&lt;br&gt;User-level&amp;nbsp;licenses:&amp;nbsp;Individual&amp;nbsp;subscriptions.&lt;br&gt;Payment&amp;nbsp;gateway&amp;nbsp;integrations.&lt;br&gt;Manage&amp;nbsp;renewals,&amp;nbsp;invoices,&amp;nbsp;and&amp;nbsp;cancellations.&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;3476&quot; data-start=&quot;3455&quot;&gt;&lt;b&gt;Activity&amp;nbsp;Tracking&amp;nbsp;and&amp;nbsp;Logging&amp;nbsp;Service:&lt;/b&gt;&lt;br&gt;Store&amp;nbsp;user&amp;nbsp;activity&amp;nbsp;logs:&lt;br&gt;Search&amp;nbsp;queries&amp;nbsp;and&amp;nbsp;filters.&lt;br&gt;Export&amp;nbsp;and&amp;nbsp;share&amp;nbsp;actions.&lt;br&gt;Annotations,&amp;nbsp;notes,&amp;nbsp;and&amp;nbsp;bookmark&amp;nbsp;usage.&lt;br&gt;Login/logout&amp;nbsp;timestamps.&lt;br&gt;Generate&amp;nbsp;usage&amp;nbsp;statistics&amp;nbsp;for&amp;nbsp;Client-Admins:&lt;br&gt;Login&amp;nbsp;frequency.&lt;br&gt;Dataset&amp;nbsp;usage&amp;nbsp;metrics.&lt;br&gt;Export&amp;nbsp;logs.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;3476&quot; data-start=&quot;3455&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="822" y="1671.5" width="340" height="406.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-222" target="w0o_VN7VHRVcwuZl0_9_-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-222" value="oAuth" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="108" y="1693" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-223" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="419" y="1678" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-225" target="w0o_VN7VHRVcwuZl0_9_-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-225" value="User Organization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1703" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-227" target="w0o_VN7VHRVcwuZl0_9_-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-227" value="&lt;div&gt;Organization&lt;/div&gt;&lt;div&gt;Creation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="1803" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-229" target="w0o_VN7VHRVcwuZl0_9_-232">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="2017" />
+              <mxPoint x="124" y="2017" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-229" value="Subscription" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1997" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-232" target="w0o_VN7VHRVcwuZl0_9_-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="126" y="2036" />
+              <mxPoint x="126" y="2036" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-232" target="w0o_VN7VHRVcwuZl0_9_-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-232" value="Payment Gateway" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="141" y="1987" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-236" target="w0o_VN7VHRVcwuZl0_9_-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-236" value="Subscription Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1997" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-245" target="w0o_VN7VHRVcwuZl0_9_-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-245" value="Activity Tracker API" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="141" y="1890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-247" target="w0o_VN7VHRVcwuZl0_9_-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-247" value="Activity Logs for Client-Admins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-250" target="w0o_VN7VHRVcwuZl0_9_-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-250" value="Support Tickets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571" y="1824" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-252" target="w0o_VN7VHRVcwuZl0_9_-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-252" value="Suspicious Activity Rules" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-256" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Resource Implications&lt;/h1&gt;Every&amp;nbsp;time&amp;nbsp;a&amp;nbsp;user&amp;nbsp;performs&amp;nbsp;a&amp;nbsp;search:&lt;br&gt;You&amp;nbsp;need&amp;nbsp;to&amp;nbsp;generate&amp;nbsp;an&amp;nbsp;embedding&amp;nbsp;for&amp;nbsp;the&amp;nbsp;query.&lt;br&gt;Assuming&amp;nbsp;a&amp;nbsp;256-token&amp;nbsp;query.&lt;br&gt;Tokens&amp;nbsp;per&amp;nbsp;query:&lt;br&gt;256&amp;nbsp;tokens/query256&amp;nbsp;\text{&amp;nbsp;tokens/query}256&amp;nbsp;tokens/query&lt;br&gt;Cost&amp;nbsp;per&amp;nbsp;query:&lt;br&gt;256&amp;nbsp;/&amp;nbsp;1000&amp;nbsp;\times&amp;nbsp;0.00002&amp;nbsp;=&amp;nbsp;**$0.000005**&lt;br&gt;Estimate&amp;nbsp;for&amp;nbsp;1,000&amp;nbsp;searches/day:&lt;br&gt;1000&amp;nbsp;\times&amp;nbsp;0.000005&amp;nbsp;=&amp;nbsp;**$0.005/day**&lt;br&gt;&lt;div&gt;→&amp;nbsp;~$1.50/month&amp;nbsp;for&amp;nbsp;1,000&amp;nbsp;searches&amp;nbsp;per&amp;nbsp;day.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After&amp;nbsp;the&amp;nbsp;vector&amp;nbsp;search:&lt;br&gt;You&amp;nbsp;pass&amp;nbsp;the&amp;nbsp;top-N&amp;nbsp;results&amp;nbsp;to&amp;nbsp;the&amp;nbsp;LLM&amp;nbsp;for&amp;nbsp;summarization.&lt;br&gt;Each&amp;nbsp;result&amp;nbsp;is&amp;nbsp;~500&amp;nbsp;tokens.&lt;br&gt;5&amp;nbsp;results&amp;nbsp;summarized&amp;nbsp;→&amp;nbsp;~2,500&amp;nbsp;tokens&amp;nbsp;per&amp;nbsp;summary.&lt;/div&gt;&lt;div&gt;&lt;br&gt;Tokens&amp;nbsp;per&amp;nbsp;summarization:&lt;br&gt;2500&amp;nbsp;tokens/query2500&amp;nbsp;\text{&amp;nbsp;tokens/query}2500&amp;nbsp;tokens/query&lt;br&gt;Cost&amp;nbsp;per&amp;nbsp;query&amp;nbsp;summary&amp;nbsp;(GPT-4-turbo):&lt;br&gt;2500&amp;nbsp;/&amp;nbsp;1000&amp;nbsp;\times&amp;nbsp;0.01&amp;nbsp;=&amp;nbsp;**$0.025**&lt;br&gt;Estimate&amp;nbsp;for&amp;nbsp;1,000&amp;nbsp;searches/day:&lt;br&gt;1000&amp;nbsp;\times&amp;nbsp;0.025&amp;nbsp;=&amp;nbsp;**$25/day**&lt;br&gt;→&amp;nbsp;~$750/month&amp;nbsp;for&amp;nbsp;1,000&amp;nbsp;summarizations&amp;nbsp;per&amp;nbsp;day.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="345.25" width="447" height="395.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-257" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Resource Implications&lt;/h1&gt;This will be same as any generic SaaS.&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="1015.5" width="447" height="395.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-258" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Resource Implications&lt;/h1&gt;This will be same as any generic SaaS.&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="1671.5" width="447" height="395.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
