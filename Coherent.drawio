@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="5570" dy="3135" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2468" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,6 +422,66 @@
         </mxCell>
         <mxCell id="w0o_VN7VHRVcwuZl0_9_-258" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Resource Implications&lt;/h1&gt;This will be same as any generic SaaS.&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;595&quot; data-start=&quot;516&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;&quot; data-end=&quot;107&quot; data-start=&quot;69&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1292" y="1671.5" width="447" height="395.5" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-282" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2362" y="-271" width="621" height="657" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-259" target="w0o_VN7VHRVcwuZl0_9_-261">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-259" value="API Gateway" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry x="271" y="147" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-261" value="&lt;div&gt;Frontend (React)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- User Interface&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Visualization and Search&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Notes and Bookmarks&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Sharing and Export&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Admin&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry x="218.5" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-263" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-263" value="&lt;div&gt;Authentication&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Role Management&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- JWT Authentication&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- RBAC Enforcement&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry y="202" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-264" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-264" value="&lt;div&gt;Subscription&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Payment Service&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Subscription Plans&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Payment Gateway&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry x="436" y="202" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-265" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-265" value="&lt;div&gt;Activity Tracking&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- User Activity Logs&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Search History&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Suspicious Activity&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry y="319" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-266" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-266" value="&lt;div&gt;Search and Ranking&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- FAISS and PGVector&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Ranking Service&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Semantic Search Summary&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry x="436" y="319" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-267" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-267" value="&lt;div&gt;Embedding Service&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- File Processing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Text Chunking&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Embedding Gen&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry y="435" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-268" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-268" value="Tabular Data Processing&lt;div align=&quot;left&quot;&gt;- Chart Extraction&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Table Data Extraction&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Store in Non-relational DB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry x="436" y="435" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-269" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-269" value="&lt;div&gt;Visualization Service&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- LLM Based Generation&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Edit Visualization&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry y="555" width="185" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="w0o_VN7VHRVcwuZl0_9_-282" source="w0o_VN7VHRVcwuZl0_9_-270" target="w0o_VN7VHRVcwuZl0_9_-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-270" value="&lt;div&gt;Export and Sharing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Link Generation&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- PDF, Excel and Images&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="w0o_VN7VHRVcwuZl0_9_-282">
+          <mxGeometry x="436" y="555" width="185" height="102" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
