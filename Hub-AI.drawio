@@ -1,0 +1,220 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.14">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="2646" dy="1669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="-75" width="1350" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-131" y="324" width="1457" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-22" target="w0o_VN7VHRVcwuZl0_9_-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-22" target="w0o_VN7VHRVcwuZl0_9_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-22" value="Search Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="171" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-23" target="w0o_VN7VHRVcwuZl0_9_-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="29" y="445" />
+              <mxPoint x="29" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-23" target="w0o_VN7VHRVcwuZl0_9_-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="29" y="445" />
+              <mxPoint x="29" y="468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-23" value="User Query" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-87" y="420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-25" target="w0o_VN7VHRVcwuZl0_9_-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-25" value="Embedding Generation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="331" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.298;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-30" target="w0o_VN7VHRVcwuZl0_9_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-30" value="Database Query" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="511" y="403" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-33" target="DDQxApeuOzSpBcFLMcEA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-33" value="&lt;div&gt;Relevant Pages and Files&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="511" y="514.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-39" target="DDQxApeuOzSpBcFLMcEA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-39" target="w0o_VN7VHRVcwuZl0_9_-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-39" value="Agent Call" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="191" y="514.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-42" value="Search View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-92" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;Retrieval Augmented Generation Based Agentic Chat&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="-87" y="-191" width="1248" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-68" target="w0o_VN7VHRVcwuZl0_9_-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-68" target="DDQxApeuOzSpBcFLMcEA-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="101" y="615" />
+              <mxPoint x="101" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-68" value="Summary" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="70" y="514.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-76" target="w0o_VN7VHRVcwuZl0_9_-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="419" />
+              <mxPoint x="155" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-76" value="Autocomplete" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="46" y="404" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-79" target="w0o_VN7VHRVcwuZl0_9_-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="468" />
+              <mxPoint x="155" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-79" value="Categorization" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="46" y="453" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w0o_VN7VHRVcwuZl0_9_-6" target="w0o_VN7VHRVcwuZl0_9_-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.34;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DDQxApeuOzSpBcFLMcEA-7" target="DDQxApeuOzSpBcFLMcEA-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="619" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-7" value="Query Cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="393" y="644" width="100" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DDQxApeuOzSpBcFLMcEA-10" target="DDQxApeuOzSpBcFLMcEA-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="619" />
+              <mxPoint x="456" y="619" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDQxApeuOzSpBcFLMcEA-10" target="DDQxApeuOzSpBcFLMcEA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-10" value="Top_K Comparison" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="403" y="514.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-16" value="HRO Agent" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="191" y="637" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDQxApeuOzSpBcFLMcEA-18" target="w0o_VN7VHRVcwuZl0_9_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-18" value="Ranking" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="297" y="514.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DDQxApeuOzSpBcFLMcEA-22" target="w0o_VN7VHRVcwuZl0_9_-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="118" y="617" />
+              <mxPoint x="118" y="617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-22" value="&lt;div&gt;OpenAI&lt;/div&gt;&lt;div&gt;Summary&lt;/div&gt;&lt;div&gt;(Conditional)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="637" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DDQxApeuOzSpBcFLMcEA-46" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Search Service&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Context Aware Summary Generation&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;At Ingest time:&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Converting documents into contents and summary structures for all the incoming PDF files&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Searching semantically on the vector dataset and while generating summary passing all the chunks which were mentioned in the context array for the specific content topic&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Accuracy vs recency bias&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Query categorization: Depending on the query type determine if we need to get accurate data or recent data&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Re-rank the Top_K array with this input and generate summary based on the bias&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;font&gt;Query Caching: Query Cosine Matching with Threshold&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="812" y="364" width="464" height="386" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-1" target="w0o_VN7VHRVcwuZl0_9_-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-1" target="w0o_VN7VHRVcwuZl0_9_-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-1" value="Files Dataset" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-2" value="Embedding Generation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-3" target="w0o_VN7VHRVcwuZl0_9_-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-3" value="&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Text Extraction/OCR Service&lt;/font&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="125" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-4" target="w0o_VN7VHRVcwuZl0_9_-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-4" value="Sections and Summaries Extraction" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-6" target="w0o_VN7VHRVcwuZl0_9_-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-6" value="&lt;div&gt;Vector&lt;/div&gt;&lt;div&gt;Database&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="630" y="120" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-12" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="630" y="-40" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-2" target="w0o_VN7VHRVcwuZl0_9_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Files Processing Service&lt;/h1&gt;&lt;p&gt;This section will cover the database seeding with all the PDF and Data Sources which are expected to be queried by the users.&lt;/p&gt;&lt;p&gt;The extracted text is stored in JSON format and the Content and Summaries is a shortened version of the document which gives context structure for effective retrieval. If a topic spans from page 1 to page 10 in a document, instead of sending just the Top_K chunks to the LLM, we use the whole section for response generation.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-39" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-18" target="w0o_VN7VHRVcwuZl0_9_-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-18" value="Data Import" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w0o_VN7VHRVcwuZl0_9_-20" target="w0o_VN7VHRVcwuZl0_9_-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0o_VN7VHRVcwuZl0_9_-20" value="AWS S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="135" y="190" width="70" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
