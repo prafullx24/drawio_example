@@ -1,29 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="27.1.5">
   <diagram name="Page-1" id="6BmJr5rbr6GqPgEecNDf">
-    <mxGraphModel dx="2723" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4744" dy="2576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="230" width="580" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="230" width="580" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI5unZWtDdbz9k2Sz7qP-1" target="sI5unZWtDdbz9k2Sz7qP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-830" y="-290" width="460" height="340" as="geometry" />
+          <mxGeometry x="-860" y="-290" width="460" height="340" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-2" value="&lt;div&gt;&lt;b&gt;AI Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;OpenAI Agents SDK&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="-280" width="120" height="30" as="geometry" />
+          <mxGeometry x="-730" y="-280" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-4" value="Vector Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-660" y="100" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-6" value="&lt;div&gt;&lt;b&gt;Socials&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Posts&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Comments&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Recognition&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Announcements&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="220" width="160" height="110" as="geometry" />
+          <mxGeometry x="-880" y="250" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-7" value="&lt;div&gt;Structure:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. Filters&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Context&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. Vector Data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
           <mxGeometry x="-560" y="100" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-8" value="&lt;div&gt;&lt;b&gt;Documents&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Knowledge base&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Policies&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="220" width="160" height="110" as="geometry" />
+          <mxGeometry x="-700" y="250" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-9" value="&lt;div&gt;&lt;b&gt;Sources&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Websites&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Drives&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Sharepoints&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="220" width="160" height="110" as="geometry" />
+          <mxGeometry x="-520" y="250" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-10" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
           <mxGeometry x="-1530" y="-290" width="400" height="340" as="geometry" />
@@ -32,10 +41,10 @@
           <mxGeometry x="-1390" y="-290" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-13" value="IngestAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-220" width="100" height="40" as="geometry" />
+          <mxGeometry x="-840" y="-220" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-14" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Ingest Agent:&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;The &lt;span data-end=&quot;216&quot; data-start=&quot;200&quot;&gt;Ingest Agent&lt;/span&gt; is a specialized backend agent responsible for preparing and storing all new user-generated content (such as posts, comments, or documents) into the semantic search and classification pipeline. It acts as the central ingestion point.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="-280" width="250" height="75" as="geometry" />
+          <mxGeometry x="-360" y="-280" width="250" height="75" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-15" value="Main Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="100" width="60" height="80" as="geometry" />
@@ -50,70 +59,124 @@
           <mxGeometry x="-1230" y="220" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-20" value="&lt;div&gt;&lt;b&gt;Queries&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query&lt;/div&gt;Input Outputs&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="360" width="160" height="110" as="geometry" />
+          <mxGeometry x="-880" y="381" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-21" value="&lt;div&gt;&lt;b&gt;Summaries&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Content Ref&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Content Summary&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Filtering Metadata&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="360" width="160" height="110" as="geometry" />
+          <mxGeometry x="-700" y="381" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-22" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Tool Logs&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query Ref&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Tool Calls&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Input Outputs&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Data Involved&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="360" width="160" height="110" as="geometry" />
+          <mxGeometry x="-520" y="381" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-23" value="&lt;div&gt;&lt;b&gt;Chat Feedback&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query Ref&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Data Involved&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Feedback Bool&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="490" width="160" height="110" as="geometry" />
+          <mxGeometry x="-880" y="511" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-24" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Agent Logs&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query Ref&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Tool Calls&lt;/div&gt;&lt;div&gt;Input Outputs&lt;/div&gt;&lt;div&gt;Data Involved&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="490" width="160" height="110" as="geometry" />
+          <mxGeometry x="-700" y="511" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-25" value="&lt;div&gt;&lt;b&gt;Common&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Token Count&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Duration&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Time&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
           <mxGeometry x="-840" y="100" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-26" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Moderation Logs&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query Ref&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Input Outputs&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Data Involved&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User Involved&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="490" width="160" height="110" as="geometry" />
+          <mxGeometry x="-520" y="511" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-27" value="SummarizerAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-40" width="100" height="40" as="geometry" />
+          <mxGeometry x="-840" y="-40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-31" value="ModerationAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-100" width="100" height="40" as="geometry" />
+          <mxGeometry x="-840" y="-100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-32" value="ToolCallingAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="-70" width="100" height="40" as="geometry" />
+          <mxGeometry x="-690" y="-70" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-33" value="ContentGenAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="-130" width="100" height="40" as="geometry" />
+          <mxGeometry x="-690" y="-130" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-34" value="PlannerAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="-190" width="100" height="40" as="geometry" />
+          <mxGeometry x="-690" y="-190" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-35" value="ChatAgent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-160" width="100" height="40" as="geometry" />
+          <mxGeometry x="-840" y="-160" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-37" value="apply_leave" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-240" width="80" height="40" as="geometry" />
+          <mxGeometry x="-520" y="-240" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-38" value="leave_bal" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-190" width="80" height="40" as="geometry" />
+          <mxGeometry x="-520" y="-190" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-40" value="list_events" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="-140" width="80" height="40" as="geometry" />
+          <mxGeometry x="-520" y="-140" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-41" value="..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="-90" width="60" height="30" as="geometry" />
+          <mxGeometry x="-510" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="-250" width="120" height="200" as="geometry" />
+          <mxGeometry x="-540" y="-250" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-43" value="Tools" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-525" y="-280" width="60" height="30" as="geometry" />
+          <mxGeometry x="-555" y="-280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI5unZWtDdbz9k2Sz7qP-44" target="sI5unZWtDdbz9k2Sz7qP-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-44" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;Planner Agent:&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;The Planner Agent acts as the intelligent orchestrator in our agentic AI system. Its core function is to analyze user input, detect intent, and route tasks to the appropriate specialized agents or tools.&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="-175" width="250" height="75" as="geometry" />
+          <mxGeometry x="-360" y="-175" width="250" height="75" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-46" value="&lt;font style=&quot;font-size: 9px; line-height: 100%;&quot;&gt;&lt;b&gt;Intent Detection&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Understands the user&#39;s goal from free-form natural language&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Categorizes requests (e.g., retrieve info, apply leave, summarize)&lt;br&gt;&lt;b&gt;Agent &amp;amp; Tool Routing&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Determines which agents/tools are best suited to handle the request&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Can invoke one or multiple tools in sequence or parallel&lt;br&gt;&lt;b&gt;Multi-Step Planning&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Breaks down complex queries into smaller steps&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Executes steps in a logical order (e.g., retrieve → summarize)&lt;br&gt;&lt;b&gt;Context Management&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Maintains short-term memory of conversation/session&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Passes necessary metadata between tools (e.g., user/org info)&lt;br&gt;&lt;b&gt;Fallback &amp;amp; Escalation&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Handles unrecognized or ambiguous inputs gracefully&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Optionally escalates to human support or prompts for clarification&lt;br&gt;&lt;b&gt;Output Composition&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Collects and composes results from various tools into a unified response&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Returns structured output (e.g., JSON) to external systems like your Java app&lt;br&gt;&lt;b&gt;Auditing &amp;amp; Observability&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Logs all decisions, tools used, input/output, and timing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Enables traceability for debugging and monitoring&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-400" width="330" height="310" as="geometry" />
+          <mxGeometry x="30" y="-580" width="330" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-49" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;1. Summarization Request&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Input:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;{ &quot;message&quot;: &quot;Summarize this for me: [long wall of text]&quot; }&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Planner Behavior:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;→ Calls summarize()&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;2. Leave Application&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Input:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;{ &quot;message&quot;: &quot;I want to apply for leave from July 1st to July 5th&quot; }&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;→ Extracts dates → Calls apply_leave(start_date=&quot;2025-07-01&quot;, end_date=&quot;2025-07-05&quot;)&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;3. Hybrid Query (Multiple Tools)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Input:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;{&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&amp;nbsp; &quot;message&quot;: &quot;Is this post safe to publish? Also, create a catchy title.&quot;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;}&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;→ Calls:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; moderate_text(...)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; generate_post(...)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Returns both outputs in a structured format.&lt;/font&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;4. Retrieval + Summarization&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;Input:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;{ &quot;message&quot;: &quot;Tell me what the updated leave policy says, and summarize it.&quot; }&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;→ Calls:&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; retrieve_info(&quot;leave policy&quot;)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px; line-height: 100%;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; summarize(...) on result&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-580" width="330" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-50" value="Key OpenAI Agent SDK Features&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;Multi-Agent Composition&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Agents as callable Python functions/classes&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Chainable: e.g., RouterAgent → RAGAgent → ToolCallingAgent&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Enables modular orchestration of multi-step tasks&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Tool Calling (Function Calling)&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Register tools as Python functions with structured I/O&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Used for: apply_leave, check_balance, generate_content, etc.&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Multi-Turn Memory&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Maintains short-term context across steps&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Supports iterative rewriting and contextual follow-ups&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Planning &amp;amp; Routing&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Planner agent breaks down tasks and routes to sub-agents/tools&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Handles complex queries like: “Check balance and create a Diwali post”&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Structured I/O with Pydantic&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Typed schemas for clean, validated tool input/output&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Ensures clarity and safety in agent → Java client communication&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Agents-as-Tools&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Wrap agents as tools for nested execution&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Example: content generator calls summarizer or moderation agent&lt;br&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Observability&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SDK logs tool usage, agent decisions, and token counts&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Can be extended to track latency, failures, and usage analytics&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-580" width="450" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-51" value="&lt;div&gt;&lt;b&gt;Tools&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ToolName&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Desc&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Capabilities&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Uses&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="251" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-53" value="Phase 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-55" value="&lt;div&gt;&lt;b&gt;Planner Logs&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Steps&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Exec State&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Retries&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Output&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="770" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-56" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Premade Plans&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query Summary&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Steps&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Required Input &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Expected Output&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="381" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-57" value="Phase 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-58" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Convo&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Convo ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Title&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Summary&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="641" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-59" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;ConvoSummary[-10]&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Convo ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Message ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Summary&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="641" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-60" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;ConvoSummary[-100]&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Convo ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Message ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Summary&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="511" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-62" value="&lt;div&gt;&lt;b&gt;Messages&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Convo ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User ID&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Text&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="641" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-64" value="Embed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="-250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-65" value="Query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="-200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-66" value="Chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="-150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-67" value="Moderate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="-100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-68" value="Summarize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="-50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-69" value="Generate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="-50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-71" value="CRUDs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
