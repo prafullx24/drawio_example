@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="27.1.5">
   <diagram name="Page-1" id="6BmJr5rbr6GqPgEecNDf">
-    <mxGraphModel dx="3029" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3347" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,29 +10,48 @@
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-200" y="230" width="580" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="sI5unZWtDdbz9k2Sz7qP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI5unZWtDdbz9k2Sz7qP-1" target="sI5unZWtDdbz9k2Sz7qP-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.671;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sI5unZWtDdbz9k2Sz7qP-1" target="sI5unZWtDdbz9k2Sz7qP-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-630" y="70" />
+              <mxPoint x="-980" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI5unZWtDdbz9k2Sz7qP-1" target="wAs_jN0kXxlNqG_Lku9J-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-890" y="-110" />
+              <mxPoint x="-890" y="-110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
           <mxGeometry x="-860" y="-290" width="460" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="sI5unZWtDdbz9k2Sz7qP-2" value="&lt;div&gt;&lt;b&gt;AI Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;OpenAI Agents SDK&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="sI5unZWtDdbz9k2Sz7qP-2" value="&lt;div&gt;&lt;b&gt;AI Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Google ADK&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-730" y="-280" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-4" value="Vector Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="-660" y="100" width="60" height="80" as="geometry" />
+          <mxGeometry x="-1020" y="130" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-6" value="&lt;div&gt;&lt;b&gt;Socials&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Posts&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Comments&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Recognition&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Announcements&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
           <mxGeometry x="-880" y="250" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-7" value="&lt;div&gt;Structure:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. Filters&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Context&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. Vector Data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="100" width="130" height="80" as="geometry" />
+          <mxGeometry x="-590" y="130" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-8" value="&lt;div&gt;&lt;b&gt;Documents&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Knowledge base&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Policies&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
           <mxGeometry x="-700" y="250" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-9" value="&lt;div&gt;&lt;b&gt;Sources&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Websites&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Drives&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Sharepoints&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Vectors&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
           <mxGeometry x="-520" y="250" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1130" y="-130" as="sourcePoint" />
+            <mxPoint x="-1030" y="-130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-10" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
           <mxGeometry x="-1530" y="-290" width="400" height="340" as="geometry" />
@@ -74,7 +93,7 @@
           <mxGeometry x="-700" y="511" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-25" value="&lt;div&gt;&lt;b&gt;Common&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Token Count&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Duration&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Time&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" parent="1" vertex="1">
-          <mxGeometry x="-840" y="100" width="130" height="80" as="geometry" />
+          <mxGeometry x="-440" y="130" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-26" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Moderation Logs&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Query Ref&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Input Outputs&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Data Involved&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;User Involved&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;align=center;" parent="1" vertex="1">
           <mxGeometry x="-520" y="511" width="160" height="110" as="geometry" />
@@ -177,6 +196,46 @@
         </mxCell>
         <mxCell id="sI5unZWtDdbz9k2Sz7qP-71" value="CRUDs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-1" value="OpenSearch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sI5unZWtDdbz9k2Sz7qP-10" target="sI5unZWtDdbz9k2Sz7qP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.354;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sI5unZWtDdbz9k2Sz7qP-10" target="sI5unZWtDdbz9k2Sz7qP-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1000" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1330" y="70" />
+              <mxPoint x="-999" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAs_jN0kXxlNqG_Lku9J-4" target="sI5unZWtDdbz9k2Sz7qP-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-900" y="-130" />
+              <mxPoint x="-900" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wAs_jN0kXxlNqG_Lku9J-4" target="sI5unZWtDdbz9k2Sz7qP-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1080" y="-110" />
+              <mxPoint x="-1080" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-4" value="&lt;div&gt;SNS-SQS&lt;/div&gt;&lt;div&gt;with 2 Queues&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="-160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;Phase 1 will be Sync REST calls&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="-70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wAs_jN0kXxlNqG_Lku9J-11" value="&lt;i&gt;At this stage all data can be stored in OpenSearch&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="190" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
