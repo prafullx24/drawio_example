@@ -689,6 +689,12 @@
         <mxCell id="dz-5I37olcEo6vvNZ6kJ-259" value="&lt;div&gt;To store this we will use JSONB column in &quot;Conveyance&quot; table with 6 Mineral rights values as sub-array.&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; [&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &#39;&lt;/span&gt;depth-1&#39;: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;desc&#39;: &#39;TEXT TEXT TEXT&#39;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#39;MI&#39;: 100,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;WI&#39;: 50&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="2770" y="930" width="210" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2930" y="868.58" as="sourcePoint" />
+            <mxPoint x="3100" y="868.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dz-5I37olcEo6vvNZ6kJ-260" value="Conveyance" style="shape=display;whiteSpace=wrap;html=1;size=0.16666666666666666;" vertex="1" parent="1">
           <mxGeometry x="2820" y="850" width="110" height="40" as="geometry" />
         </mxCell>
@@ -718,7 +724,7 @@
         <mxCell id="dz-5I37olcEo6vvNZ6kJ-270" value="&lt;div&gt;6 Mineral rights values as sub-array stored as additional fields to the graph nodes&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; [&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &#39;&lt;/span&gt;depth-1&#39;: {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;desc&#39;: &#39;TEXT TEXT TEXT&#39;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#39;MI&#39;: 100,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#39;WI&#39;: 50&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="2330" y="440" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="dz-5I37olcEo6vvNZ6kJ-272" value="At this stage, we have 15 Instruments, 85 Evidences, " style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;" vertex="1" parent="1">
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-272" value="&lt;div&gt;At this stage, we have 15 Instruments, 85 Evidences,15 Shapes in Mineral tracts and 10 layers of depth for each tract which gives us 900 Rights transfer values for 6 types of Mineral Rights in each Depth.&lt;/div&gt;&lt;div&gt;&lt;i&gt;Mineral Interest Values: 15x10x6&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="2770" y="1190" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="dz-5I37olcEo6vvNZ6kJ-273" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;" vertex="1" parent="1">
@@ -783,6 +789,15 @@
         </mxCell>
         <mxCell id="dz-5I37olcEo6vvNZ6kJ-298" value="Land Tracts and Subtracts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1946.5" y="1810" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-299" value="Generate Mineral Ownership Timeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3100" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-303" value="&lt;div&gt;This page will be a time variant data view of all the 900 values of mineral rights/interests.&lt;/div&gt;&lt;div&gt;To fetch this view, we will have to rely on GraphDB and Postgres RDS&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.125;align=left;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="690" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-304" value="&lt;div&gt;Operations:&lt;/div&gt;&lt;div&gt;&lt;b&gt;Selection of a Leaf Node &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Leaf node in GraphDB means smallest piece of tract in the Land parcel which was not subdivided into smaller sub-tracts.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Selection of Depths&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Out of 10 depths each we might be interested in specific layers at a time.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Selection of Grantees&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Some grantees might be excluded from the view to limit the scope.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="923.75" width="210" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
