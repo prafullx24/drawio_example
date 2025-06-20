@@ -128,7 +128,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="292sVJsFcYVL-qDGJEL4" name="Page-2">
-    <mxGraphModel dx="1275" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1913" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,6 +149,9 @@
         </mxCell>
         <mxCell id="RlOCg8cz9WBLvG0VQajh-4" value="Add Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="1130" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-305" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlOCg8cz9WBLvG0VQajh-6" target="RlOCg8cz9WBLvG0VQajh-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RlOCg8cz9WBLvG0VQajh-6" value="Add Documents" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="1130" width="110" height="40" as="geometry" />
@@ -239,7 +242,7 @@
         <mxCell id="RlOCg8cz9WBLvG0VQajh-32" value="runsheet_charts" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.08333333333333333;" vertex="1" parent="1">
           <mxGeometry x="1100" y="803.75" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RlOCg8cz9WBLvG0VQajh-34" value="chart: &lt;font style=&quot;font-size: 11px;&quot;&gt;jsonb with nodes and&amp;nbsp;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;edges for each project_id&lt;/font&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=10;align=right;" vertex="1" parent="1">
+        <mxCell id="RlOCg8cz9WBLvG0VQajh-34" value="chart: &lt;font style=&quot;font-size: 11px;&quot;&gt;jsonb with nodes and&amp;nbsp;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;edges for each project_id&lt;/font&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=10;align=right;spacing=4;" vertex="1" parent="1">
           <mxGeometry x="1072.5" y="700" width="165" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RlOCg8cz9WBLvG0VQajh-36" value="Combined" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="1">
@@ -798,6 +801,9 @@
         </mxCell>
         <mxCell id="dz-5I37olcEo6vvNZ6kJ-304" value="&lt;div&gt;Operations:&lt;/div&gt;&lt;div&gt;&lt;b&gt;Selection of a Leaf Node &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Leaf node in GraphDB means smallest piece of tract in the Land parcel which was not subdivided into smaller sub-tracts.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Selection of Depths&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Out of 10 depths each we might be interested in specific layers at a time.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Selection of Grantees&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Some grantees might be excluded from the view to limit the scope.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;" vertex="1" parent="1">
           <mxGeometry x="3090" y="923.75" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dz-5I37olcEo6vvNZ6kJ-306" value="&lt;div&gt;Doubt: Is our understanding of one instrument facilitating all mineral interest wrong? &lt;br&gt;&lt;/div&gt;&lt;div&gt;Example: It seems like there can be multiple instruments for same sub-tract where one is denoting mineral interest and another is denoting working interest.&amp;nbsp;&lt;/div&gt;&lt;div&gt;In this case for our example of 100 files, we will have 100 &quot;Instrument + Evidence&quot; entries in the Conveyance page as opposed to 15 &quot;Instrument&quot; entries&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;arcSize=8;spacingLeft=3;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="1365" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
